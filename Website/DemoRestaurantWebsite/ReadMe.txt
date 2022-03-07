@@ -1,5 +1,6 @@
 This is a demo webiste created by html,css,javascript,jquery and with Bootstrap.
 This is only for demo purpose.
+For fully ran, please use server
 
 Main functions:
 1.	Usage of Bootstrap
