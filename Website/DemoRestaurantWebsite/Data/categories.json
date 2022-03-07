@@ -1,0 +1,11 @@
+[{"id":1,"short_name":"L","name":"Lunch","special_instructions":"Sunday-Friday 11:15am-3:00pm. Served with your choice of rice (Vegetable Fried RIce, Steamed Rice, Brown Rice), AND EITHER soup (Hot \u0026 Sour, Wonton, Vegetable, Egg Drop, Chicken Corn Soup) OR veggie egg roll. $1.00 extra to have both soup and egg roll.","url":"/categories/1.json"},
+	{"id":2,"short_name":"A","name":"Soup","special_instructions":"Sunday-Friday 11:15am-3:00pm. Served with your choice of rice","url":"/categories/2.json"},
+	{"id":3,"short_name":"B","name":"Appetizers","special_instructions":"Sunday-Friday 11:15am-3:00pm. Served with your choice of rice","url":"https://davids-restaurant.herokuapp.com/categories/3.json"},
+	{"id":4,"short_name":"SP","name":"Chef's Recommendations","special_instructions":"Sunday-Friday 11:15am-3:00pm. Served with your choice of rice","url":"/categories/4.json"},
+	{"id":5,"short_name":"C","name":"Chicken","special_instructions":"Sunday-Friday 11:15am-3:00pm. Served with your choice of rice","url":"/categories/5.json"},
+	{"id":6,"short_name":"F","name":"Beef","special_instructions":"Sunday-Friday 11:15am-3:00pm. Served with your choice of rice","url":"/categories/6.json"},
+	{"id":7,"short_name":"V","name":"Veal","special_instructions":"Sunday-Friday 11:15am-3:00pm. Served with your choice of rice","url":"/categories/7.json"},
+	{"id":8,"short_name":"DK","name":"Duck","special_instructions":"Sunday-Friday 11:15am-3:00pm. Served with your choice of rice","url":"/categories/8.json"},
+	{"id":9,"short_name":"VG","name":"Vegetables","special_instructions":"Sunday-Friday 11:15am-3:00pm. Served with your choice of rice","url":"/categories/9.json"},
+	{"id":10,"short_name":"CU","name":"Curry","special_instructions":"Sunday-Friday 11:15am-3:00pm. Served with your choice of rice","url":"/categories/10.json"}
+]

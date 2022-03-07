@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+ 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="This webiste is only for demo purpose only!">
+		<title>Jeff Ho restaurant demo website</title>
+		<!-- Bootstrap core CSS -->
+		<link href="../bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+		<!--font style-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital@1&display=swap" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+		<style>
+	      .bd-placeholder-img {
+	        font-size: 1.125rem;
+	        text-anchor: middle;
+	        -webkit-user-select: none;
+	        -moz-user-select: none;
+	        user-select: none;
+	      }
+
+	      @media (min-width: 768px) {
+	        .bd-placeholder-img-lg {
+	          font-size: 3.5rem;
+	        }
+	      }
+	    </style>
+	    <!-- Custom styles-->
+	    <link href="../css/style.css" rel="stylesheet">
+	</head>
+
+
+	<body>
+		<!--Header from boostrap-->
+	   	<div class="container headerDiv">
+		    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+		      <a href="../index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+		        <h1>Jeff Demo</h1>
+		      </a>
+
+		      <ul id="nav-list" class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+		        <li><a href="../index.html" class="nav-link px-2">Home</a></li>
+		        <li><a href="Menu.html" class="nav-link px-2">Menu</a></li>
+		        <li><a href="FAQs.html" class="nav-link px-2">FAQs</a></li>
+		        <li><a href="#" class="nav-link px-2 active">About</a></li>
+		      </ul>
+
+		      <div class="col-md-3 text-end loginDiv">
+		        <button id='Login_id' type="button" class="btn btn-login">Login</button>
+		      </div>
+		    </header>
+	  	</div>
+	    <!--end Header-->
+
+    	<!--nav bar from boostrap-->
+	  	<nav class="navbar navbar-dark bg-dark">
+		    <div class="container-fluid">
+		      <a class="navbar-brand" href="#"><h1>Jeff Demo</h1></a>
+		      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="navbar-toggler-icon"></span>
+		      </button>
+
+		      <div class="collapse navbar-collapse" id="navbarsExample01">
+		        <ul class="navbar-nav me-auto mb-2">
+		          <li class="nav-item">
+		            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="Menu.html">Menu</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="FAQs.html">FAQs</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link active" href="#">About</a>
+		          </li>
+		        </ul>
+		        <div class="col-md-3 text-start loginDiv">
+			        <button id='Login_id' type="button" class="btn btn-login" onclick="$('#addModal').toggle();">Login</button>
+			    </div>
+		      </div>
+		    </div>
+		</nav>
+		<!--end nav-->
+
+
+		<!------------------------main------------------------>
+		<div id="main-content" class="container">
+			<div id='addModal'></div>
+			<div class="mb-4 rounded-3">
+		        <a href="https://goo.gl/maps/zB4n2cdKezEVjV3X9" target="_blank">
+		          <div id="map-tile">
+		          	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23751.273709831446!2d-1.429093358297372!3d54.9846356316602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e6f4251bb8fe7%3A0x1227c6774e41894!2sTemple%20Memorial%20Park!5e0!3m2!1sen!2suk!4v1646586308097!5m2!1sen!2suk" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen loading="lazy"></iframe>
+		            <span>map</span>
+		          </div>
+		        </a>
+			</div>
+
+			<div class="row align-items-md-stretch">
+		      	<div class="col-md-6">
+			        <div class="h-100 p-5 text-white bg-dark rounded-5">
+			          <h2>About Us</h2>
+			          <p>This is a DEMO only!!</p>
+			          <p>Location: 77, ABC Street, NO city, AB33 DP79</p>
+			          <p>Phone: 999-888-777-66</p>
+			          <p>Opening Hours: 09:00 - 23:00 Mon- Fir</p>
+			          <p>Delivery Areas: We do delivery on all zone in NO city</p>
+			       	</div>
+				</div>
+			<div class="col-md-6">
+		        <div class="contact-from h-100 p-5 btext-white bg-dark rounded-5">
+		          <h2>Contact us</h2>
+		          <form id='contact-us-form'>
+		          	<label for="TITLE">Title:</label><br><input type="text" name="Title id" id="Title_id"><br>
+			        <label for="EMAIL">Email:</label><br><input type="email" name="Email id" id="Email_id"><br>
+			        <label for="Description">Description:</label><br>
+			        <textarea rows="5" cols="50" name="Description" id="Description_id"></textarea>
+				  </form>
+		          <button class="btn btn-outline-secondary" type="button" onclick="fakeSendEmail()">Submit</button>
+		          <button class="btn btn-outline-secondary" type="button" onclick="resetForm()">Reset</button>
+		        </div>
+		      </div>
+			</div>
+	    </div><!-- End of #home-tiles -->
+
+		</div>
+		<!---------------------end main------------------------>
+
+  		<!-------------using Bootstrap example footer--------------------->
+		<!------------------------footer------------------------>
+		<div class="container">
+		  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top panel-footer">
+		    <p id='copy-right' class="col-md-4 mb-0 text-muted">&copy; Jeff Ho 2022 w:123px h:666px</p>
+
+		    <a href="../index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+		     <h4>Jeff Demo</h4>
+		    </a>
+
+		    <ul class="nav col-md-4 justify-content-end">
+		      <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
+		      <li class="nav-item"><a href="Menu.html" class="nav-link px-2 text-muted">Menu</a></li>
+		      <li class="nav-item"><a href="FAQs.html" class="nav-link px-2 text-muted">FAQs</a></li>
+		      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+		    </ul>
+		  </footer>
+		</div>
+		<!------------------------end footer------------------------>
+
+
+		<!--using jquery CND by google-->
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
+
+		<!--using local jquery-->
+		<script src="../js/jquery-3.6.0.min.js"></script>
+		<script src="../bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+		<script src="../js/script.js"></script>
+		<!--<script type="text/javascript">
+			$(document).ready(
+				function(){
+					alert("This is a demo website only");
+					window.console && console.log("Delayed alert message to show this is a demo website only!");
+				}
+			);
+		</script>-->
+	</body>
+</html>

@@ -1,0 +1,435 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #FFA119;
+	font-family: 'Newsreader', serif;
+  padding-bottom: 20px;
+}
+
+
+/* Login */
+.btn-social{
+  color:  #951C49 !important;;
+  border-color: #951C49 !important;
+}
+
+.btn-social:hover {
+  color: #fff;
+  background-color: #557c3e;
+  border-color: #951C49;
+}
+/* End Login */
+
+/** HEADER **/
+.headerDiv h1, .navbar-brand h1{ /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover,a.active{
+  background: #951C49;
+  border: 1px solid transparent;
+  border-color: #557c3e;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.btn-login {
+  color: #fff;
+  background-color: #557c3e;
+  border-color: #951C49;
+}
+.btn-login:hover {
+  color: #fff;
+  background-color: #951C49;
+  border-color: #557c3e;
+}
+
+.navbar{
+  margin-bottom: 10px;
+  background: #951C49;
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+  margin-bottom: 5px;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+#map-tile{
+  background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+/* END HOME PAGE */
+
+/* About Us*/
+  #Description_id, #Title_id, #Email_id{
+    width: 400px;
+  }
+/* End About Us */
+
+ /*FAQs */
+.opacity-50 { opacity: .5; }
+
+.list-group, .live_char_class{
+  width: auto;
+  max-width: auto;
+  margin: 4rem auto;
+}
+
+#live_chat_text_id{
+  width: 80%;
+}
+
+#live_chart_result_id{
+  min-height: 350px;
+  width: 100%;
+}
+
+.form-check-input:checked + .form-checked-content {
+  opacity: .5;
+}
+
+.form-check-input-placeholder {
+  pointer-events: none;
+  border-style: dashed;
+}
+[contenteditable]:focus {
+  outline: 0;
+}
+
+.list-group-checkable {
+  display: grid;
+  gap: .5rem;
+  border: 0;
+}
+.list-group-checkable .list-group-item {
+  cursor: pointer;
+  border-radius: .5rem;
+}
+.list-group-item-check {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}
+.list-group-item-check:hover + .list-group-item {
+  background-color: var(--bs-light);
+}
+.list-group-item-check:checked + .list-group-item {
+  color: #fff;
+  background-color: #951C49;
+}
+.list-group-item-check[disabled] + .list-group-item,
+.list-group-item-check:disabled + .list-group-item {
+  pointer-events: none;
+  filter: none;
+  opacity: .5;
+}
+/* End FAQs*/
+
+/* Footer */
+.panel-footer {
+  height: 4rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  margin-bottom: 35px;
+  padding-right: 3px;
+  padding-left: 3px;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.panel-footer ul a:hover{
+  background: #951C49;
+  border: 1px solid transparent;
+  border-color: #557c3e;
+}
+
+.panel-footer h4 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+/* END Footer */
+
+
+/*ABOUT*/
+.rounded-5 {
+  border-radius: 0.5rem !important;
+}
+/* END ABOUT */
+
+
+/*Modal*/
+.rounded-4 { border-radius: .5rem; }
+.rounded-5 { border-radius: .75rem; }
+.rounded-6 { border-radius: 1rem; }
+
+.modal h2{
+  color:  black; 
+}
+
+.modal-sheet .modal-dialog {
+  width: 380px;
+  transition: bottom .75s ease-in-out;
+}
+.modal-sheet .modal-footer {
+  padding-bottom: 2rem;
+}
+
+.modal-alert .modal-dialog {
+  width: 380px;
+}
+
+.border-right { border-right: 1px solid #eee; }
+
+.modal-tour .modal-dialog {
+  width: 380px;
+}
+
+/* End Modal */
+
+
+/* Menu */
+#mainMeue-content h4, #mainMeue-content .card-text{
+  color: #000000;
+}
+/* End Menu */
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    background-position: center;
+    height: 675px;
+  }
+
+   /* Header */
+  .navbar{
+    display: none;
+  }
+  /* End Header */
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .navbar{
+    display: none;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    background-position: center;
+    height: 558px;
+  }
+  /* End Home Page */
+
+  /* About Us*/
+  #Description_id, #Title_id, #Email_id{
+    width: 350px;
+  }
+  /* End About Us */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /*Nav*/
+  .navbar-toggler{
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  /*End Nav*/
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+  }
+
+  /* About Us*/
+  #Description_id, #Title_id, #Email_id{
+    width: 250px;
+  }
+  /* End About Us */
+
+  .headerDiv{
+    display: none;
+  }
+  /* End Home Page */
+
+  /*Footer*/
+  .panel-footer{
+    margin-bottom: auto;
+  }
+  /*End Footer*/
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .headerDiv{
+    display: none;
+  }
+  .navbar-brand h1{
+    margin-top: 10px;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+  }
+  /* End Header */
+
+  .contact-from{
+    margin-top: 10px;
+  }
+
+  /* About Us*/
+  #Description_id, #Title_id, #Email_id{
+    width: 400px;
+  }
+  /* End About Us */
+
+  /* Footer */
+  .panel-footer {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .panel-footer h4 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+  .panel-footer .nav{ /*do not display botton nac*/
+    display: none;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+    margin-top: 30px;
+    padding: 0;
+  }
+  #menu-tile, #specials-tile {
+    width: auto;
+    margin: 0 auto 15px;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .headerDiv{
+    display: none;
+  }
+
+  /* About Us*/
+  #Description_id, #Title_id, #Email_id{
+    width: 250px;
+  }
+  /* End About Us */
+
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+    .container .jumbotron {
+    display: none;
+  }
+
+  #menu-tile, #specials-tile {
+    width: auto;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
