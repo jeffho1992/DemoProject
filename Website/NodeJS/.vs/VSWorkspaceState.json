@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\conFusionServer",
+    "\\conFusionServer\\conFusionServer-Loopback",
+    "\\conFusionServer\\conFusionServer-Loopback\\server",
+    "\\conFusionServer\\conFusionServer-Loopback\\server\\boot"
+  ],
+  "SelectedNode": "\\conFusionServer\\conFusionServer-Loopback\\server\\boot\\script.js",
+  "PreviewInSolutionExplorer": false
+}
